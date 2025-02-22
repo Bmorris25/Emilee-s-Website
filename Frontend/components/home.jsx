@@ -12,7 +12,7 @@ const Home = () => {
       <div className="cover container col-xxl-12 px-4 py-5">
         <div className="row flex-md-row-reverse align-items-center g-5 py-5">
           <div className="col-10 col-sm-8 col-lg-5">
-            <img src="Frontend/photos/Emilee-cover.jpg" className="d-block mx-lg-auto img-fluid" id="cover" loading="lazy" alt="Emilee Cover" />
+            <img src="./photos/Emilee-cover.jpg" className="d-block mx-lg-auto img-fluid" id="cover" loading="lazy" alt="Emilee Cover" />
           </div>
           <div className="col-lg-6">
             <h1 className="display-5 fw-bold text-body-emphasis lh-1 mb-3">Emilee Irwin | Pet-Stylist</h1>
