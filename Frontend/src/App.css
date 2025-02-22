@@ -8,3 +8,23 @@
 body {
   background: linear-gradient(#4A249D, #009FBD, #F6F5F5);
 }
+
+.swiper-container {
+  width: 100%;
+  max-width: 900px; /* Adjust as needed */
+  height: auto;
+  margin: auto;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: auto; /* Ensures the full image is visible */
+  object-fit: contain; /* Prevents cropping */
+  border-radius: 10px;
+}
