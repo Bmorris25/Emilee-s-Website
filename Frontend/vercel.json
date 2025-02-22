@@ -10,7 +10,7 @@
     ],
     "rewrites": [
       {
-        "source": "/:path*",
+        "source": "/(.*)",
         "destination": "/index.html"
       }
     ]
