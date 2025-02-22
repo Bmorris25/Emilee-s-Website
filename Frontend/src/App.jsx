@@ -8,18 +8,19 @@ import Contact from "../components/contact";
 import Services from '../components/services';
 
 const App = () => {
-
   return (
-    <Router>
+    <>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/featured" element={<Featured />} />
-      </Routes>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/featured" element={<Featured />} />
+        </Routes>
+      </Router>
       <Footer />
-    </Router>
+    </>
   );
 }
 
